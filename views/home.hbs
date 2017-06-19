@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Some Website</title>
+    <title>پرتال</title>
+    {{> style}}
   </head>
+
   <body>
-    {{> header}}
+    <div class="main">
 
-    <p>{{screamIt welcomeMessage}}</p>
+      <div class="logo-part">
+        <div class="circle-border">
+          <div class="circle-border-2">
+            <div class="circle-center">
+              <img src="Untitled-1.png" alt="logo">
+            </div>
+          </div>
+        </div>
+      </div>
 
-    {{> footer}}
+      <div class="second-rect">
+        <h2 style="text-align:center; margin:auto;">پرتال ورود یکپارچه اعضا</h2>
+      </div>
+      <div class="button">
+        <p>Created by mh S - Copy right {{curYear}}</p>
+      </div>
+      <h4>You visited this webserver at {{curDate}}</h4>
+    </div>
   </body>
 </html>
